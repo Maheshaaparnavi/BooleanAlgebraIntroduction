@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Boolean Algebra</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Introduction</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Origins</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Operations</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Welcome to <span>Boolean Algebra Introduction</span></h1>
+        <p class="hero__description">Demystifying the Basics of Binary Logic</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- Origins and Significance Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Origins and Significance</h1>
+          <h2>Boolean Algebra is a mathematical system used in computer science.</h2>
+          <p>It was developed by George Boole in the mid-19th century.</p>
+          <button class="main__btn"><a href="#">More Info</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main" id="about">
+        <div class="main__container">
+          <div class="main__img--container">
+            <div class="main__img--card--2"> 
+                <img src="boolean.png"/>
+            </div> 
+          </div>
+          <div class="main__content">
+            <h1>Basic Boolean Operations</h1>
+            <h2>Boolean Algebra defines three fundamental operations:</h2>
+            <ul>
+                <li><strong>AND:</strong> Combines two inputs and returns true only if both are true.</li>
+                <li><strong>OR:</strong> Returns true if at least one input is true.</li>
+                <li><strong>NOT:</strong> Inverts the input value, turning true into false and vice versa.</li>
+            </ul>
+            <button class="main__btn"><a href="#">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+
+    <!-- Applications Section -->
+    <div class="services" id="services">
+      <h1>Applications of Boolean Algebra</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Computer Science</h2>
+          <p>Boolean Algebra is foundationalserving as the basis for logical operations, decision-making, and conditional statements in programming</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Electrical Engineering</h2>
+          <p>Boolean Algebra is essential for the design and analysis of digital circuits</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Digital Electronics</h2>
+          <p>Boolean Algebra is the fundamental tool for creating and operating digital systems</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Programming and Software Development</h2>
+          <p>Boolean Algebra is extensively used to implement logical operations and decision-making in software</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign Up Today</h2>
+          <p>Get More Knowledge</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Boolean Algebra</a>
+          </div>
+          <p class="website__rights">© booleanalgebra 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
